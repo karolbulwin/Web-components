@@ -1,4 +1,4 @@
-import template from '../template.js';
+import template from '../template/template.js';
 
 export default function mainComponent() {
   const main = document.createElement('main');
