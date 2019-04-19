@@ -32,5 +32,18 @@ module.exports = {
       title: 'Web-components',
       lang: 'en'
     })
-  ]
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.html$/,
+        use: [ {
+          loader: 'html-loader',
+          options: {
+            interpolate: true
+          }
+        }]
+      }
+    ]
+  },
 };
