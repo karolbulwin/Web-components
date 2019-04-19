@@ -7,3 +7,28 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+header, footer {
+  text-align: center;
+  background-color: $color-primary;
+}
+
+header {
+  padding: 1.5em;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+footer {
+  padding: 1.1em;
+  margin-top: 1em;
+  small {
+    font-size: .8em;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.6em;
+  padding: 1em;
+}
