@@ -1,7 +1,7 @@
 import '../public/stylesheets/style.scss';
 import headerComponent from './layout/header.js';
 import mainComponent from './layout/main.js';
-import buttonCreatorComponent from './customEle.js';
+import buttonCreatorComponent from './buttonCreator.js';
 import footerComponent from './layout/footer.js';
 
 if (process.env.NODE_ENV !== 'production') {
