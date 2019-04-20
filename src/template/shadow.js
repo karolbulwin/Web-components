@@ -1,7 +1,7 @@
-export default function component(templateId, componentName ) {
+export default function component(templateId, componentName) {
   class CustomElement extends HTMLElement {
     constructor() {
-      super()
+      super();
       const root = this.attachShadow({ mode: 'open' });
       const templateContent = document.getElementById(templateId).content;
       root.appendChild(templateContent.cloneNode(true));
