@@ -1,3 +1,7 @@
+// import template from '../template/header.js';
+
+
+/*
 export default function headerComponent() {
   const header = document.createElement('header');
   const element = document.createElement('div');
@@ -9,3 +13,4 @@ export default function headerComponent() {
 
   return header;
 }
+*/
