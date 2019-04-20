@@ -11,8 +11,7 @@ if (process.env.NODE_ENV !== 'production') {
 document.body.appendChild(component('header-template', 'header'));
 document.body.appendChild(shadow('header-template', 'my-header'));
 
-// document.body.appendChild(mainComponent());
-// document.querySelector('main').appendChild(shadow('button-creator-template', 'button-creator'));
+document.body.appendChild(mainComponent());
 
 document.body.appendChild(component('footer-template', 'footer'));
 document.body.appendChild(shadow('footer-template', 'my-footer'));
