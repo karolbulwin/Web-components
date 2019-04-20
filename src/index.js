@@ -2,7 +2,7 @@ import '../public/stylesheets/style.scss';
 import mainComponent from './layout/main.js';
 
 import component from './template/tempComponent.js'
-import shadow from './shadow.js';
+import shadow from './template/shadow.js';
 
 if (process.env.NODE_ENV !== 'production') {
   console.log('Looks like we are in development mode!');
